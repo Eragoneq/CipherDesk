@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-26T22:19:31.455879+00:00",
+  "title": "Design System: CipherDesk",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Operation Teal",
+        "value": "#91c4c4"
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Primary Hover",
+        "value": "#a8d1cf"
+      },
+      "primary-pressed": {
+        "role": "primary",
+        "displayName": "Primary Pressed",
+        "value": "#7db6b7"
+      },
+      "header": {
+        "role": "primary",
+        "displayName": "Slate Header",
+        "value": "#303e49"
+      },
+      "header-button": {
+        "role": "primary",
+        "displayName": "Header Button",
+        "value": "#425663"
+      },
+      "header-button-hover": {
+        "role": "primary",
+        "displayName": "Header Button Hover",
+        "value": "#536c79"
+      },
+      "header-button-border": {
+        "role": "primary",
+        "displayName": "Header Button Border",
+        "value": "#9aafbd"
+      },
+      "header-caption": {
+        "role": "primary",
+        "displayName": "Header Caption",
+        "value": "#c7d7df"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Raised Slate Surface",
+        "value": "#4b5b68"
+      },
+      "surround": {
+        "role": "neutral",
+        "displayName": "Medium Slate Surround",
+        "value": "#3d4a56"
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Soft Off-white",
+        "value": "#e6edf1"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate Caption",
+        "value": "#cbd5dd"
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border",
+        "value": "#9aafbd"
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "Field Border",
+        "value": "#9aafbd"
+      },
+      "list-border": {
+        "role": "neutral",
+        "displayName": "List Border",
+        "value": "#9aafbd"
+      },
+      "tab-border": {
+        "role": "neutral",
+        "displayName": "Tab Border",
+        "value": "#748896"
+      },
+      "tab": {
+        "role": "neutral",
+        "displayName": "Tab",
+        "value": "#374550"
+      },
+      "tab-hover": {
+        "role": "neutral",
+        "displayName": "Tab Hover",
+        "value": "#435765"
+      },
+      "tab-selected-text": {
+        "role": "neutral",
+        "displayName": "Tab Selected Text",
+        "value": "#b7dfe0"
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Teal",
+        "value": "#b7dfe0"
+      },
+      "control-hover": {
+        "role": "neutral",
+        "displayName": "Control Hover",
+        "value": "#566875"
+      },
+      "control-hover-border": {
+        "role": "neutral",
+        "displayName": "Control Hover Border",
+        "value": "#b7dfe0"
+      },
+      "control-pressed": {
+        "role": "neutral",
+        "displayName": "Control Pressed",
+        "value": "#3d5260"
+      },
+      "row-hover": {
+        "role": "neutral",
+        "displayName": "Row Hover",
+        "value": "#566875"
+      },
+      "selected": {
+        "role": "neutral",
+        "displayName": "Cool Selection",
+        "value": "#3c6d79"
+      },
+      "selected-text": {
+        "role": "neutral",
+        "displayName": "Selected Text",
+        "value": "#eef7f8"
+      },
+      "table-header": {
+        "role": "neutral",
+        "displayName": "Table Header",
+        "value": "#374550"
+      },
+      "row-alternate": {
+        "role": "neutral",
+        "displayName": "Row Alternate",
+        "value": "#455562"
+      },
+      "disabled": {
+        "role": "neutral",
+        "displayName": "Disabled",
+        "value": "#414f5b"
+      },
+      "disabled-text": {
+        "role": "neutral",
+        "displayName": "Disabled Text",
+        "value": "#bac7d1"
+      },
+      "primary-disabled": {
+        "role": "primary",
+        "displayName": "Primary Disabled",
+        "value": "#414f5b"
+      },
+      "primary-disabled-text": {
+        "role": "primary",
+        "displayName": "Primary Disabled Text",
+        "value": "#bac7d1"
+      },
+      "notice": {
+        "role": "neutral",
+        "displayName": "Amber Notice",
+        "value": "#65573d"
+      },
+      "notice-text": {
+        "role": "neutral",
+        "displayName": "Notice Text",
+        "value": "#fae3af"
+      },
+      "success": {
+        "role": "neutral",
+        "displayName": "Green Success",
+        "value": "#3c5c50"
+      },
+      "success-text": {
+        "role": "neutral",
+        "displayName": "Success Text",
+        "value": "#d5f0df"
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Red Error",
+        "value": "#6b4b4e"
+      },
+      "error-text": {
+        "role": "neutral",
+        "displayName": "Error Text",
+        "value": "#ffe0de"
+      },
+      "progress-track": {
+        "role": "neutral",
+        "displayName": "Progress Track",
+        "value": "#414f5b"
+      },
+      "primary-text": {
+        "role": "text",
+        "displayName": "Primary label ink",
+        "value": "#20383d"
+      },
+      "error-detail": {
+        "role": "semantic",
+        "displayName": "Error detail",
+        "value": "#ffe0de"
+      }
+    },
+    "typographyMeta": {
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "Application name in the persistent header."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Active task title."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Section and output labels."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Controls, tables, instructions, and results."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Header tagline."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [],
+    "nativeImplementation": {
+      "platform": "Windows desktop",
+      "toolkit": "PySide6",
+      "style": "Fusion",
+      "source": "cipherdesk/ui.py",
+      "authoritative": "COLORS roles, STYLE QSS, apply_theme() QPalette, and native widget construction",
+      "previewOnly": true,
+      "previewNote": "HTML/CSS is a static visual translation for documentation only. Native QPalette roles theme Qt indicators, scrolling, tooltips, and dialogs; GnuPG Pinentry is separate.",
+      "window": {
+        "initialLogicalPixels": [
+          1140,
+          900
+        ],
+        "minimumLogicalPixels": [
+          960,
+          760
+        ]
+      },
+      "layout": "Resizable QScrollArea per task; no mobile breakpoint.",
+      "theme": "Day/evening medium slate"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary operation",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Static preview of QPushButton#primary: Encrypt files, Decrypt files, or Save group.",
+      "html": "<button class=\"ds-primary\">Encrypt files</button>",
+      "css": ".ds-primary{font-family:'Segoe UI',sans-serif;font-size:13px;color:#e6edf1;color:#20383d;background:#91c4c4;border:1px solid #91c4c4;border-radius:5px;padding:10px 20px;min-height:18px;font-weight:600}.ds-primary:hover{background:#a8d1cf}.ds-primary:active{background:#7db6b7}.ds-primary:focus-visible{border:2px solid #b7dfe0}.ds-primary:disabled{color:#bac7d1;background:#414f5b;border-color:#cbdbe0}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Static preview of the outlined QPushButton used for Browse and Add files.",
+      "html": "<button class=\"ds-secondary\">Add files</button>",
+      "css": ".ds-secondary{font-family:'Segoe UI',sans-serif;font-size:13px;color:#e6edf1;background:#4b5b68;border:1px solid #9aafbd;border-radius:5px;padding:8px 13px;min-height:18px}.ds-secondary:hover{background:#566875;border-color:#b7dfe0}.ds-secondary:active{background:#3d5260}.ds-secondary:focus-visible{border:2px solid #b7dfe0;padding:7px 12px}.ds-secondary:disabled{color:#bac7d1;background:#414f5b;border-color:#d8e0e5}"
+    },
+    {
+      "name": "Header action",
+      "kind": "button",
+      "refersTo": "button-header",
+      "description": "Static preview of QPushButton#headerButton on the persistent header.",
+      "html": "<div class=\"ds-header\"><button class=\"ds-header-button\">Open Kleopatra</button></div>",
+      "css": ".ds-header{background:#303e49;padding:18px 26px}.ds-header-button{font-family:'Segoe UI',sans-serif;font-size:13px;color:#e6edf1;color:#e6edf1;background:#425663;border:1px solid #9aafbd;border-radius:5px;padding:8px 13px;min-height:18px}.ds-header-button:hover{background:#536c79}.ds-header-button:active{background:#3d5260}.ds-header-button:focus-visible{border:2px solid #b7dfe0;padding:7px 12px}.ds-header-button:disabled{color:#a3b8bf}"
+    },
+    {
+      "name": "Text field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Static preview of QLineEdit. Native Qt supplies editing and dialog behavior.",
+      "html": "<input class=\"ds-field\" aria-label=\"Group name\" placeholder=\"For example, Finance team\">",
+      "css": ".ds-field{font-family:'Segoe UI',sans-serif;font-size:13px;color:#e6edf1;padding:8px;background:#4b5b68;border:1px solid #9aafbd;border-radius:4px;min-height:18px}.ds-field:focus-visible{outline:none;border:2px solid #b7dfe0;padding:7px}.ds-field:disabled{background:#f0f3f5;color:#75848b}.ds-field::selection{background:#91c4c4}"
+    },
+    {
+      "name": "Task tabs",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "Static translation of QTabBar's three actual tasks; selected state uses tab-selected.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Tasks\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\">Encrypt files</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\">Decrypt files</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\">Contact groups</button></div>",
+      "css": ".ds-tabs{display:flex}.ds-tab{font-family:'Segoe UI',sans-serif;font-size:13px;color:#e6edf1;background:#374550;padding:12px 23px;border:1px solid #748896;border-bottom:none;min-width:95px}.ds-tab[aria-selected=true]{background:#3d4a56;color:#b7dfe0;font-weight:600}.ds-tab:hover:not([aria-selected=true]){background:#435765}.ds-tab:focus-visible{outline:auto}"
+    },
+    {
+      "name": "File list",
+      "kind": "custom",
+      "refersTo": "data-list",
+      "description": "Static preview of the implemented QListWidget file rows. Full local paths appear in native tooltips.",
+      "html": "<div class=\"ds-file-list\" role=\"listbox\" tabindex=\"0\" aria-label=\"Selected files\"><div class=\"ds-file\" role=\"option\" aria-selected=\"true\">Quarterly report.pdf · 94.0 KB</div><div class=\"ds-file\" role=\"option\" aria-selected=\"false\">Project notes.docx · 94.0 KB</div></div>",
+      "css": ".ds-file-list{font-family:'Segoe UI',sans-serif;font-size:13px;color:#e6edf1;background:#4b5b68;border:1px solid #9aafbd;border-radius:4px;min-height:132px}.ds-file{padding:9px 7px}.ds-file:hover{background:#566875}.ds-file[aria-selected=true]{background:#3c6d79;color:#eef7f8}.ds-file-list:focus-visible{outline:auto}"
+    },
+    {
+      "name": "Recipient review",
+      "kind": "custom",
+      "refersTo": "data-list",
+      "description": "Static preview of the explicit union table built with QTreeWidget. Sample identities are illustrative.",
+      "html": "<table class=\"ds-recipients\"><thead><tr><th>Contact</th><th>Email</th><th>Key fingerprint</th><th>Status</th></tr></thead><tbody><tr tabindex=\"0\"><td>Alex Sample</td><td>alex@example.test</td><td>AAAAAAAAAAAAAAAA</td><td>Ready</td></tr><tr tabindex=\"0\"><td>Morgan Sample</td><td>morgan@example.test</td><td>BBBBBBBBBBBBBBBB</td><td>Ready</td></tr></tbody></table>",
+      "css": ".ds-recipients{font-family:'Segoe UI',sans-serif;font-size:13px;color:#e6edf1;background:#4b5b68;border:1px solid #9aafbd;border-radius:4px;border-spacing:0;text-align:left}.ds-recipients th{background:#374550;padding:8px;border-right:1px solid #dce5ea;font-weight:600}.ds-recipients td{padding:7px 4px}.ds-recipients tbody tr:nth-child(even){background:#455562}.ds-recipients tbody tr:hover{background:#566875}.ds-recipients tbody tr:focus-visible{outline:auto;background:#3c6d79;color:#eef7f8}"
+    },
+    {
+      "name": "Notice and result banners",
+      "kind": "custom",
+      "refersTo": "notice",
+      "description": "Static preview of existing QLabel notice/success/error variants. The actual UI also reports each file's outcome and signature.",
+      "html": "<div class=\"ds-banners\"><p class=\"ds-notice\">Decrypted copies contain readable document contents. Save them outside synced SharePoint or OneDrive folders.</p><p class=\"ds-success\">Encrypted 2 files. Saved locally; SharePoint / OneDrive synchronization is handled separately.</p><p class=\"ds-error\">1 failed; see the results below.</p></div>",
+      "css": ".ds-banners{font-family:'Segoe UI',sans-serif;font-size:13px;color:#e6edf1;}.ds-notice,.ds-success,.ds-error{padding:10px;border-radius:5px}.ds-notice{color:#fae3af;background:#65573d}.ds-success{color:#d5f0df;background:#3c5c50}.ds-error{color:#ffe0de;background:#6b4b4e}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Familiar Windows utility",
+    "overview": "CipherDesk uses a restrained native desktop interface: a muted slate header, medium slate surround, gently lighter data controls, and soft off-white text. The visual priority is selecting local files and checking the effective recipients before an operation. Density supports comparison of contacts, key status, and file outcomes.\n\nThis is a PySide6 application using Qt Fusion. The normative implementation is `cipherdesk/ui.py`: its `STYLE` QSS, widget construction, and layout constraints. Qt supplies standard control mechanics and any palette details not explicitly styled. The sidecar's HTML/CSS entries are documentation previews of existing Qt primitives, not an application frontend.\n\nThe medium slate palette is intended for daytime and evening use, with muted teal actions and no near-black or bright-white working surfaces.",
+    "keyCharacteristics": [
+      "Familiar Windows typography and standard Qt controls.",
+      "Teal actions with visible hover, focus, pressed, and disabled states.",
+      "Persistent task tabs and explicit recipient review.",
+      "Flat surfaces, fine borders, and text-led feedback.",
+      "Scrollable task pages at smaller supported window sizes."
+    ],
+    "rules": [
+      {
+        "name": "The Text Before Color Rule",
+        "body": "Every key problem and operation outcome must have explicit status text; color is supplementary.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reachable Action Rule",
+        "body": "At the minimum supported window size, page scrolling must keep output fields, primary actions, and supporting instructions reachable.",
+        "section": "layout"
+      }
+    ],
+    "dos": [
+      "Do preserve standard Qt keyboard, focus, selection, checkbox, and scrolling behavior.",
+      "Do show combined unique recipients before encryption.",
+      "Do pair status color with explicit key, error, and signature text.",
+      "Do keep output paths and task actions reachable through page scrolling.",
+      "Do use Kleopatra for key management and refresh the shared keyring afterward."
+    ],
+    "donts": [
+      "Don't hide missing or unusable recipients from the review table.",
+      "Don't replace native utility controls with web cards, custom toggles, or decorative chrome.",
+      "Don't imply that a successful local operation completed SharePoint or OneDrive synchronization.",
+      "Don't rely on success color to imply that an unsigned sender was authenticated."
+    ]
+  }
+}
